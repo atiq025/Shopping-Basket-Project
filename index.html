@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World Peas - Basket</title>
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header class="bg-primary py-3">
+    <div class="container d-flex justify-content-between align-items-center">
+      <h1 class="logo text-white">World Peas</h1>
+      <nav>
+        <a href="#" class="me-3 text-white text-decoration-none">Home</a>
+        <a href="#" class="me-3 text-white text-decoration-none">Shop</a>
+        <a href="#" class="text-white text-decoration-none">Contact</a>
+      </nav>
+      <button class="btn btn-outline-light">Basket</button>
+    </div>
+  </header>
+
+  <!-- Main Content Section -->
+  <main class="container my-4">
+    <div class="row">
+      <!-- Basket Items -->
+      <div class="col-lg-8">
+        <div class="basket-item shadow p-3 mb-4 bg-warning-subtle rounded d-flex align-items-center">
+          <img src="./assets/img/Heirloom Tomato.jpeg" alt="Heirloom Tomato" class="me-3 rounded" style="width: 80px; height: 80px;">
+          <div>
+            <h5 class="mb-1">Heirloom Tomato</h5>
+            <p class="mb-0">$5.99 / kg</p>
+          </div>
+          <div class="ms-auto">$5.99</div>
+        </div>
+        <div class="basket-item shadow p-3 mb-4 bg-warning-subtle rounded d-flex align-items-center">
+          <img src="./assets/img/Organic Ginger .jpeg" alt="Organic Ginger" class="me-3 rounded" style="width: 80px; height: 80px;">
+          <div>
+            <h5 class="mb-1">Organic Ginger</h5>
+            <p class="mb-0">$12.99 / kg</p>
+          </div>
+          <div class="ms-auto">$6.50</div>
+        </div>
+        <div class="basket-item shadow p-3 mb-4 bg-warning-subtle rounded d-flex align-items-center">
+          <img src="./assets/img/Sweet Onion .jpeg" alt="Sweet Onion" class="me-3 rounded" style="width: 80px; height: 80px;">
+          <div>
+            <h5 class="mb-1">Sweet Onion</h5>
+            <p class="mb-0">$2.99 / kg</p>
+          </div>
+          <div class="ms-auto">$14.95</div>
+        </div>
+      </div>
+
+      <!-- Order Summary -->
+      <div class="col-lg-4">
+        <div class="bg-warning-subtle shadow p-4 rounded">
+          <h5 class="mb-3">Order Summary</h5>
+          <div class="d-flex justify-content-between">
+            <span>Subtotal</span>
+            <span>$27.44</span>
+          </div>
+          <div class="d-flex justify-content-between">
+            <span>Shipping</span>
+            <span>$3.99</span>
+          </div>
+          <div class="d-flex justify-content-between">
+            <span>Tax</span>
+            <span>$2.00</span>
+          </div>
+          <hr>
+          <div class="d-flex justify-content-between fw-bold">
+            <span>Total</span>
+            <span>$33.43</span>
+          </div>
+          <button class="btn btn-success w-100 mt-3 d-flex align-items-center justify-content-center">
+            Continue to payment
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right ms-2" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 0 1 1.414 0l4 4a1 1 0 0 1 0 1.414l-4 4a1 1 0 0 1-1.414-1.414L12.586 9H2a1 1 0 1 1 0-2h10.586l-2.293-2.293a1 1 0 0 1 0-1.414z"/>
+            </svg>
+          </button>        
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="./js/bootstrap.bundle.js"></script>
+</body>
+</html>
